@@ -1,4 +1,4 @@
-package com.uday.brewery;
+package com.uday.brewery.configuration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
