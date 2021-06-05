@@ -1,8 +1,16 @@
 plugins {
     id 'java'
+    id("io.spring.dependecy-management")
 }
 
-group 'com.uday'
+apply plugin: 'java'
+apply plugin: 'java-library'
+apply plugin: 'idea'
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
+apply plugin: 'project-report'
+
+group 'iamuday.xyz'
 version '0.0.1-SNAPSHOT'
 
 repositories {
