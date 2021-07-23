@@ -1,11 +1,10 @@
-package com.uday.brewery.services;
+package com.uday.brewery.service;
 
 import com.uday.brewery.data.BeerDto;
 
 /**
  * Created by udayhegde
  */
-public interface BeerService {
-
+public interface IBeerService {
     BeerDto getBeerById(String id);
 }

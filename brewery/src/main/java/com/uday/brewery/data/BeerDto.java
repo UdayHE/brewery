@@ -1,4 +1,4 @@
-package dto;
+package com.uday.brewery.data;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
