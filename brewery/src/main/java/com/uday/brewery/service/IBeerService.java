@@ -7,4 +7,6 @@ import com.uday.brewery.data.BeerDto;
  */
 public interface IBeerService {
     BeerDto getBeerById(String id);
+
+    BeerDto save(BeerDto beerDto);
 }
